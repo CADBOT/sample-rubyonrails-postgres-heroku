@@ -4,9 +4,9 @@ rvm:
 
 env:
   global:
-    - APP_NAME=fierce-plains-1014
+    - APP_NAME=shippable-test
     - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-    - secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
+    - secure: PcZIFr+wCCjgRxUDqhrB8z1eqkRhQuB6bwr36pHMgqu7HqvLHKOzN6kTNhUwGqNN+T9mHAL9ma7MJK7dNF7FyKGVyN2J7DQu437QGLcNwEUUHROMUPYhXfeiCytDidz+WJLlBPABM2QdBxrxWcnSIdDQ95UxcKcY9lKDnGWF6Kasekc7UNCUTW8GiEZMQ6grzk6Fm7FaXv5rEd3tAz7B9CnQBRoSZg+4jhRIoLdrvlQhFllrf+01a4EdIbGzRpCzDnPOx1vEmLGBkpwBf8QjehHGQnjsetItv4WHLsjXTL1GrvJkwki9dDRwUobmmJKdmVuWT7WUmA9E8QLThwEQzA==
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
